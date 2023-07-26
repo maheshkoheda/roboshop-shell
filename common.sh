@@ -49,7 +49,7 @@ func_nodejs() {
   echo -e "\e[36m >>>>>>> Load ${component} schema <<<<<<<<\e[0m"
   mongo --host mongodb.maheshkoheda.online </app/schema/${component}.js &>>${log}
 
-   func_systemd
+  func_systemd
 
 
 

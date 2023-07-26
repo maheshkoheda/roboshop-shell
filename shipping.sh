@@ -2,4 +2,4 @@ component=shipping
 source common.sh
 
 
-java_maven
+func_java
