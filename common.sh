@@ -84,7 +84,7 @@ func_java() {
  mvn clean package &>>${log}
  mv target/${component}-1.0.jar ${component}.jar &>>${log}
 
- func_schema_setup()
+ func_schema_setup
 
  func_systemd
 
